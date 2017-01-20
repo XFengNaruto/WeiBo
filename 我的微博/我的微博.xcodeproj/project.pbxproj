@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		410BE38E1E324E3E004B602B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BE38D1E324E3E004B602B /* AppDelegate.swift */; };
 		410BE3951E324E3E004B602B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410BE3941E324E3E004B602B /* Assets.xcassets */; };
+		410BE3A01E3251AD004B602B /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 410BE39F1E3251AD004B602B /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		410BE38D1E324E3E004B602B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		410BE3941E324E3E004B602B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410BE3991E324E3E004B602B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410BE39F1E3251AD004B602B /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		410BE38C1E324E3E004B602B /* 我的微博 */ = {
 			isa = PBXGroup;
 			children = (
+				410BE39F1E3251AD004B602B /* Classes */,
 				410BE38D1E324E3E004B602B /* AppDelegate.swift */,
 				410BE3941E324E3E004B602B /* Assets.xcassets */,
 				410BE3991E324E3E004B602B /* Info.plist */,
@@ -115,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				410BE3951E324E3E004B602B /* Assets.xcassets in Resources */,
+				410BE3A01E3251AD004B602B /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
