@@ -1,5 +1,5 @@
 //
-//  WBNavigationControllerViewController.swift
+//  WBNavigationController.swift
 //  我的微博
 //
 //  Created by  XFengNaruto on 2017/1/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WBNavigationControllerViewController: UINavigationController {
+class WBNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
