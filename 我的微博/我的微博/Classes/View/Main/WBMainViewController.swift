@@ -26,7 +26,10 @@ extension WBMainViewController {
     //这里本来是 private修饰符 但是好像不起作用 这是swift3.0改进的地方
     //Swift 3必看：新的访问控制fileprivate和open
     fileprivate func setupChildControllers () {
-        let array = [["clsName" : "WBHomeViewController" , "title" : "首页" , "imageName" : ""]]
+        let array = [["clsName" : "WBHomeViewController" , "title" : "首页" , "imageName" : "home"],
+                     ["clsName" : "WBMessageViewController" , "title" : "消息" , "imageName" : "message_center"],
+                     ["clsName" : "WBDiscoverViewController" , "title" : "发现" , "imageName" : "discover"],
+                     ["clsName" : "WBProfileViewController" , "title" : "我" , "imageName" : "profile"]]
         
         var arrayM = [UIViewController] ()
         for dict in array {
@@ -52,6 +55,11 @@ extension WBMainViewController {
         //2 创建视图控制器
         let vc = cls.init()
         vc.title = title
+        
+        //3 设置图像
+        vc.tabBarItem.image = UIImage(named: "tabbar_" + imageName)
+        //vc.tabBarItem.selectedImage = UIImage(named: "tabbar_" + imageName + "_selected")
+        vc.tabBarItem.selectedImage = UIImage(named: "tabbar_" + imageName + "_selected")?.withRenderingMode(.alwaysOriginal)
         
         let nav = WBNavigationController(rootViewController : vc)
         

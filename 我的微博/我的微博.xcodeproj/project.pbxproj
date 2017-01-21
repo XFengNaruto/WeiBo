@@ -114,9 +114,9 @@
 		410D4A511E339A66008C9A29 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				410D4A541E339A66008C9A29 /* View */,
 				410D4A521E339A66008C9A29 /* Model */,
 				410D4A531E339A66008C9A29 /* Tools */,
-				410D4A541E339A66008C9A29 /* View */,
 				410D4A5A1E339A66008C9A29 /* ViewModel */,
 			);
 			path = Classes;
@@ -141,9 +141,9 @@
 		410D4A541E339A66008C9A29 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				410D4A551E339A66008C9A29 /* Discover */,
-				410D4A561E339A66008C9A29 /* Home */,
 				410D4A571E339A66008C9A29 /* Main */,
+				410D4A561E339A66008C9A29 /* Home */,
+				410D4A551E339A66008C9A29 /* Discover */,
 				410D4A581E339A66008C9A29 /* Message */,
 				410D4A591E339A66008C9A29 /* Profile */,
 			);
