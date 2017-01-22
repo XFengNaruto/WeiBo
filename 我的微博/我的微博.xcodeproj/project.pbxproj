@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4105D9B11E346111004EC85A /* WBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105D9B01E346111004EC85A /* WBDemoViewController.swift */; };
+		4105D9B31E34844D004EC85A /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105D9B21E34844D004EC85A /* UIBarButtonItem+Extensions.swift */; };
 		410BE38E1E324E3E004B602B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BE38D1E324E3E004B602B /* AppDelegate.swift */; };
 		410BE3951E324E3E004B602B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410BE3941E324E3E004B602B /* Assets.xcassets */; };
 		410D4A5C1E339A9C008C9A29 /* WBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D4A5B1E339A9C008C9A29 /* WBMainViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4105D9B01E346111004EC85A /* WBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDemoViewController.swift; sourceTree = "<group>"; };
+		4105D9B21E34844D004EC85A /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
 		410BE38A1E324E3E004B602B /* 我的微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "我的微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		410BE38D1E324E3E004B602B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		410BE3941E324E3E004B602B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4105D9AF1E3460F7004EC85A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				4105D9B01E346111004EC85A /* WBDemoViewController.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		410BE3811E324E3E004B602B = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +181,7 @@
 		410D4A571E339A66008C9A29 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4105D9AF1E3460F7004EC85A /* Test */,
 				410D4A5B1E339A9C008C9A29 /* WBMainViewController.swift */,
 				410D4A5F1E339B53008C9A29 /* WBBaseViewController.swift */,
 				410D4A941E33A8DD008C9A29 /* WBNavigationController.swift */,
@@ -235,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				410D4A921E33A62B008C9A29 /* Bundle+Extensions.swift */,
+				4105D9B21E34844D004EC85A /* UIBarButtonItem+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				410D4A8A1E33A140008C9A29 /* UIColor+CZAddition.m in Sources */,
+				4105D9B31E34844D004EC85A /* UIBarButtonItem+Extensions.swift in Sources */,
 				410D4A831E33A140008C9A29 /* NSArray+Log.m in Sources */,
 				410D4A601E339B53008C9A29 /* WBBaseViewController.swift in Sources */,
 				410D4A8B1E33A140008C9A29 /* UILabel+CZAddition.m in Sources */,
@@ -317,6 +332,7 @@
 				410D4A8E1E33A140008C9A29 /* UIViewController+CZAddition.m in Sources */,
 				410D4A931E33A62B008C9A29 /* Bundle+Extensions.swift in Sources */,
 				410D4A861E33A140008C9A29 /* NSString+CZBase64.m in Sources */,
+				4105D9B11E346111004EC85A /* WBDemoViewController.swift in Sources */,
 				410D4A681E339C2E008C9A29 /* WBProfileViewController.swift in Sources */,
 				410D4A661E339C1C008C9A29 /* WBDiscoverViewController.swift in Sources */,
 				410D4A5C1E339A9C008C9A29 /* WBMainViewController.swift in Sources */,
