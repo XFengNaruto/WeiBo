@@ -17,6 +17,11 @@ class WBMainViewController: UITabBarController {
         setupComposeButton()
     }
     
+    //使用代码控制设备的方向
+//    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+//        return .portrait
+//    }
+    
     //监听方法
     @objc fileprivate func composeStatus() {
         
